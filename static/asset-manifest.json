@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.52634789.js",
+    "static/js/248.60b40cea.chunk.js": "/static/js/248.60b40cea.chunk.js",
+    "index.html": "/index.html",
+    "static/media/scale_zone.svg": "/static/media/scale_zone.b7a2582947931a1d671cec16299b3bbf.svg",
+    "static/media/segment.svg": "/static/media/segment.9a04d23259c34274bf744df2382ea6d0.svg",
+    "static/media/segment_selected.svg": "/static/media/segment_selected.2ce6316899b31ab4a500d0d4a1fb75f6.svg",
+    "static/media/marker_active.svg": "/static/media/marker_active.62ea6b2c64bf7b7de5e6ab7196fef9b5.svg",
+    "static/media/robot.svg": "/static/media/robot.c29a942af3ff7e2f98420abd7421e633.svg",
+    "static/media/delete_zone.svg": "/static/media/delete_zone.8a4279000012b9f92df10f5af91580ab.svg",
+    "static/media/charger.svg": "/static/media/charger.2efd3b9839e90ccf2510c274631ffc88.svg",
+    "static/media/marker.svg": "/static/media/marker.44c94bc3593012e7b8834d60e445c254.svg",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.52634789.js.map": "/static/js/main.52634789.js.map",
+    "248.60b40cea.chunk.js.map": "/static/js/248.60b40cea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.52634789.js"
+  ]
+}
