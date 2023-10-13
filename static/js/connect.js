@@ -14,7 +14,7 @@ $(document).ready(function() {
         req = $.ajax({
             url : '/connect_robot',
             type : 'POST',
-            data: { robot : robot_ip },
+            data: { 'robot' : robot_ip },
             success: function(_response) {
                 console.log("response: " + _response.result);
             },
@@ -53,7 +53,7 @@ $(document).ready(function() {
         req  = $.ajax({
             url : '/connect_printer',
             type : 'POST',
-            data: { printer : printer_ip },
+            data: { 'printer' : printer_ip },
             success: function(_response) {
                 console.log("response: " + _response.result);
             },

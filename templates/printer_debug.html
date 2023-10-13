@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Sprintr{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <div class="col-sm">
+                <div class="btn-group-vertical  btn-group-lg" role="group">
+                    <button type="button" class="btn btn-success" id="connect-btn">Connect</button>
+                    <button type="button" class="btn btn-danger" id="disconnect-btn">Disconnect</button>
+                    <button type="button" class="btn btn-primary" id="home-all-btn">Home All</button>
+                    <button type="button" class="btn btn-primary" id="home-x-btn">Home X</button>
+                    <button type="button" class="btn btn-primary" id="home-y-btn">Home Y</button>
+                    <button type="button" class="btn btn-primary" id="home-z-btn">Home Z</button>
+                    <button type="button" class="btn btn-warning" id="pause-btn">Pause</button>
+                    <button type="button" class="btn btn-danger" id="stop-btn">Stop</button>
+                    <button type="button" class="btn btn-primary" id="files-btn">Files</button>
+
+                </div>
+            </div>
+        </div>
+        <div class=" col-lg">
+            <h1> Send GCode</h1>
+            <textarea id="gcode-response" name="console" readonly="true" ></textarea>
+            <form method="POST">
+                <input type="text" id="gcode-entry" name="gcode-entry" value=""> </input>
+                <input class="send-gcode" type="submit" value="Submit" >
+            </form>
+        </div>
+    </div>
+</div> 
+{% endblock %} 
